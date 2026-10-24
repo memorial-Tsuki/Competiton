@@ -1,0 +1,7 @@
+# Observed working environment for selected-model replay only; not retraining validation.
+# Python 3.13.5. Original sklearn artifact version is 1.9.1; loading warns on 1.8.0.
+numpy==2.4.4
+pandas==3.0.2
+scipy==1.17.1
+scikit-learn==1.8.0
+joblib==1.5.3

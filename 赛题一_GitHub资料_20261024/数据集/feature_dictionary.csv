@@ -1,0 +1,117 @@
+feature,layer,data_type,description,missing_policy
+EXT_SOURCE_1,clean_input,numeric,External normalized credit-risk score 1 from the application table.,Retained; train-median imputed only in numeric matrix
+EXT_SOURCE_2,clean_input,numeric,External normalized credit-risk score 2 from the application table.,Retained; train-median imputed only in numeric matrix
+EXT_SOURCE_3,clean_input,numeric,External normalized credit-risk score 3 from the application table.,Retained; train-median imputed only in numeric matrix
+CNT_CHILDREN,clean_input,numeric,Number of children reported on the current application.,Retained; train-median imputed only in numeric matrix
+age_years,clean_input,numeric,"Applicant age in years, derived from DAYS_BIRTH.",Retained; train-median imputed only in numeric matrix
+employment_years,clean_input,numeric,Employment duration in years; anomalous positive DAYS_EMPLOYED values are treated as missing.,Retained; train-median imputed only in numeric matrix
+income_log,clean_input,numeric,log(1 + positive total income).,Retained; train-median imputed only in numeric matrix
+application_credit_income_log,clean_input,numeric,log(1 + current application credit / income).,Retained; train-median imputed only in numeric matrix
+application_annuity_income_log,clean_input,numeric,log(1 + current application annuity / income).,Retained; train-median imputed only in numeric matrix
+NAME_EDUCATION_TYPE,clean_input,categorical,Education category from the current application.,Missing category
+NAME_INCOME_TYPE,clean_input,categorical,Income type from the current application.,Missing category
+NAME_HOUSING_TYPE,clean_input,categorical,Housing category from the current application.,Missing category
+NAME_CONTRACT_TYPE,clean_input,categorical,Contract type from the current application.,Missing category
+cc_balance_log,clean_input,numeric,log(1 + summed month -1 balance across qualifying active cards).,Retained; train-median imputed only in numeric matrix
+cc_limit_log,clean_input,numeric,log(1 + summed month -1 credit limit across qualifying active cards).,Retained; train-median imputed only in numeric matrix
+cc_drawings_log,clean_input,numeric,log(1 + summed month -1 drawings across qualifying active cards).,Retained; train-median imputed only in numeric matrix
+cc_payment_log,clean_input,numeric,log(1 + summed month -1 total payments across qualifying active cards).,Retained; train-median imputed only in numeric matrix
+cc_dpd_log,clean_input,numeric,log(1 + maximum month -1 days past due).,Retained; train-median imputed only in numeric matrix
+cc_dpd_def_log,clean_input,numeric,log(1 + maximum month -1 tolerance-adjusted days past due).,Retained; train-median imputed only in numeric matrix
+cc_util_log,clean_input,numeric,log(1 + month -1 balance / credit limit).,Retained; train-median imputed only in numeric matrix
+cc_balance_income_log,clean_input,numeric,log(1 + month -1 card balance / income).,Retained; train-median imputed only in numeric matrix
+cc_limit_income_log,clean_input,numeric,log(1 + month -1 card limit / income).,Retained; train-median imputed only in numeric matrix
+cc_drawings_income_log,clean_input,numeric,log(1 + month -1 drawings / income).,Retained; train-median imputed only in numeric matrix
+cc_payment_balance_log,clean_input,numeric,log(1 + month -1 payment / (balance + 1)).,Retained; train-median imputed only in numeric matrix
+active_cards,clean_input,numeric,Number of qualifying active positive-limit cards at month -1.,Retained; train-median imputed only in numeric matrix
+hist_mean_balance_log,clean_input,numeric,log(1 + mean card balance over months -6 to -2).,Retained; train-median imputed only in numeric matrix
+hist_mean_drawings_log,clean_input,numeric,log(1 + mean card drawings over months -6 to -2).,Retained; train-median imputed only in numeric matrix
+hist_mean_payment_log,clean_input,numeric,log(1 + mean card payment over months -6 to -2).,Retained; train-median imputed only in numeric matrix
+hist_max_dpd_log,clean_input,numeric,log(1 + maximum card days past due over months -6 to -2).,Retained; train-median imputed only in numeric matrix
+prev_count_log,clean_input,numeric,log(1 + count of earlier applications decided before the current application).,Retained; train-median imputed only in numeric matrix
+prev_credit_mean_log,clean_input,numeric,log(1 + mean credit amount on earlier applications).,Retained; train-median imputed only in numeric matrix
+inst_count_log,clean_input,numeric,log(1 + usable installment count due in the prior 365 days).,Retained; train-median imputed only in numeric matrix
+inst_shortfall_sum_log,clean_input,numeric,log(1 + summed payment shortfall observed by application date).,Retained; train-median imputed only in numeric matrix
+inst_payment_ratio_log,clean_input,numeric,log(1 + mean total-paid / scheduled-amount ratio).,Retained; train-median imputed only in numeric matrix
+hist_late_rate,clean_input,numeric,Fraction of observed card rows with DPD > 0 over months -6 to -2.,Retained; train-median imputed only in numeric matrix
+hist_months,clean_input,numeric,Number of distinct observed card months in the -6 to -2 window.,Retained; train-median imputed only in numeric matrix
+prev_refused_rate,clean_input,numeric,Fraction of earlier applications with Refused status.,Retained; train-median imputed only in numeric matrix
+prev_latest_day,clean_input,numeric,Days before the current application of the most recent earlier application decision.,Retained; train-median imputed only in numeric matrix
+inst_shortfall_rate,clean_input,numeric,Fraction of usable installments still short by more than one unit at application.,Retained; train-median imputed only in numeric matrix
+inst_not_paid_by_due_rate,clean_input,numeric,"Fraction of usable installments not fully paid by the due date, one-unit tolerance.",Retained; train-median imputed only in numeric matrix
+inst_unknown_payment_rate,clean_input,numeric,Fraction of otherwise valid installment groups with unknown observed payment.,Retained; train-median imputed only in numeric matrix
+num__EXT_SOURCE_1,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from EXT_SOURCE_1.,No missing values after training-fitted preprocessing
+num__EXT_SOURCE_2,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from EXT_SOURCE_2.,No missing values after training-fitted preprocessing
+num__EXT_SOURCE_3,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from EXT_SOURCE_3.,No missing values after training-fitted preprocessing
+num__CNT_CHILDREN,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from CNT_CHILDREN.,No missing values after training-fitted preprocessing
+num__age_years,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from age_years.,No missing values after training-fitted preprocessing
+num__employment_years,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from employment_years.,No missing values after training-fitted preprocessing
+num__income_log,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from income_log.,No missing values after training-fitted preprocessing
+num__application_credit_income_log,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from application_credit_income_log.,No missing values after training-fitted preprocessing
+num__application_annuity_income_log,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from application_annuity_income_log.,No missing values after training-fitted preprocessing
+num__cc_balance_log,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from cc_balance_log.,No missing values after training-fitted preprocessing
+num__cc_limit_log,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from cc_limit_log.,No missing values after training-fitted preprocessing
+num__cc_drawings_log,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from cc_drawings_log.,No missing values after training-fitted preprocessing
+num__cc_payment_log,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from cc_payment_log.,No missing values after training-fitted preprocessing
+num__cc_dpd_log,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from cc_dpd_log.,No missing values after training-fitted preprocessing
+num__cc_dpd_def_log,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from cc_dpd_def_log.,No missing values after training-fitted preprocessing
+num__cc_util_log,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from cc_util_log.,No missing values after training-fitted preprocessing
+num__cc_balance_income_log,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from cc_balance_income_log.,No missing values after training-fitted preprocessing
+num__cc_limit_income_log,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from cc_limit_income_log.,No missing values after training-fitted preprocessing
+num__cc_drawings_income_log,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from cc_drawings_income_log.,No missing values after training-fitted preprocessing
+num__cc_payment_balance_log,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from cc_payment_balance_log.,No missing values after training-fitted preprocessing
+num__active_cards,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from active_cards.,No missing values after training-fitted preprocessing
+num__hist_mean_balance_log,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from hist_mean_balance_log.,No missing values after training-fitted preprocessing
+num__hist_mean_drawings_log,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from hist_mean_drawings_log.,No missing values after training-fitted preprocessing
+num__hist_mean_payment_log,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from hist_mean_payment_log.,No missing values after training-fitted preprocessing
+num__hist_max_dpd_log,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from hist_max_dpd_log.,No missing values after training-fitted preprocessing
+num__prev_count_log,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from prev_count_log.,No missing values after training-fitted preprocessing
+num__prev_credit_mean_log,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from prev_credit_mean_log.,No missing values after training-fitted preprocessing
+num__inst_count_log,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from inst_count_log.,No missing values after training-fitted preprocessing
+num__inst_shortfall_sum_log,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from inst_shortfall_sum_log.,No missing values after training-fitted preprocessing
+num__inst_payment_ratio_log,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from inst_payment_ratio_log.,No missing values after training-fitted preprocessing
+num__hist_late_rate,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from hist_late_rate.,No missing values after training-fitted preprocessing
+num__hist_months,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from hist_months.,No missing values after training-fitted preprocessing
+num__prev_refused_rate,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from prev_refused_rate.,No missing values after training-fitted preprocessing
+num__prev_latest_day,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from prev_latest_day.,No missing values after training-fitted preprocessing
+num__inst_shortfall_rate,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from inst_shortfall_rate.,No missing values after training-fitted preprocessing
+num__inst_not_paid_by_due_rate,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from inst_not_paid_by_due_rate.,No missing values after training-fitted preprocessing
+num__inst_unknown_payment_rate,numeric_matrix,numeric,Training-median-imputed and training-standardized value derived from inst_unknown_payment_rate.,No missing values after training-fitted preprocessing
+num__missingindicator_EXT_SOURCE_1,numeric_matrix,numeric,Training-fitted missing-value indicator for EXT_SOURCE_1.,No missing values after training-fitted preprocessing
+num__missingindicator_EXT_SOURCE_3,numeric_matrix,numeric,Training-fitted missing-value indicator for EXT_SOURCE_3.,No missing values after training-fitted preprocessing
+num__missingindicator_employment_years,numeric_matrix,numeric,Training-fitted missing-value indicator for employment_years.,No missing values after training-fitted preprocessing
+num__missingindicator_application_annuity_income_log,numeric_matrix,numeric,Training-fitted missing-value indicator for application_annuity_income_log.,No missing values after training-fitted preprocessing
+num__missingindicator_hist_mean_balance_log,numeric_matrix,numeric,Training-fitted missing-value indicator for hist_mean_balance_log.,No missing values after training-fitted preprocessing
+num__missingindicator_hist_mean_drawings_log,numeric_matrix,numeric,Training-fitted missing-value indicator for hist_mean_drawings_log.,No missing values after training-fitted preprocessing
+num__missingindicator_hist_mean_payment_log,numeric_matrix,numeric,Training-fitted missing-value indicator for hist_mean_payment_log.,No missing values after training-fitted preprocessing
+num__missingindicator_hist_max_dpd_log,numeric_matrix,numeric,Training-fitted missing-value indicator for hist_max_dpd_log.,No missing values after training-fitted preprocessing
+num__missingindicator_prev_count_log,numeric_matrix,numeric,Training-fitted missing-value indicator for prev_count_log.,No missing values after training-fitted preprocessing
+num__missingindicator_prev_credit_mean_log,numeric_matrix,numeric,Training-fitted missing-value indicator for prev_credit_mean_log.,No missing values after training-fitted preprocessing
+num__missingindicator_inst_count_log,numeric_matrix,numeric,Training-fitted missing-value indicator for inst_count_log.,No missing values after training-fitted preprocessing
+num__missingindicator_inst_shortfall_sum_log,numeric_matrix,numeric,Training-fitted missing-value indicator for inst_shortfall_sum_log.,No missing values after training-fitted preprocessing
+num__missingindicator_inst_payment_ratio_log,numeric_matrix,numeric,Training-fitted missing-value indicator for inst_payment_ratio_log.,No missing values after training-fitted preprocessing
+num__missingindicator_hist_late_rate,numeric_matrix,numeric,Training-fitted missing-value indicator for hist_late_rate.,No missing values after training-fitted preprocessing
+num__missingindicator_hist_months,numeric_matrix,numeric,Training-fitted missing-value indicator for hist_months.,No missing values after training-fitted preprocessing
+num__missingindicator_prev_refused_rate,numeric_matrix,numeric,Training-fitted missing-value indicator for prev_refused_rate.,No missing values after training-fitted preprocessing
+num__missingindicator_prev_latest_day,numeric_matrix,numeric,Training-fitted missing-value indicator for prev_latest_day.,No missing values after training-fitted preprocessing
+num__missingindicator_inst_shortfall_rate,numeric_matrix,numeric,Training-fitted missing-value indicator for inst_shortfall_rate.,No missing values after training-fitted preprocessing
+num__missingindicator_inst_not_paid_by_due_rate,numeric_matrix,numeric,Training-fitted missing-value indicator for inst_not_paid_by_due_rate.,No missing values after training-fitted preprocessing
+num__missingindicator_inst_unknown_payment_rate,numeric_matrix,numeric,Training-fitted missing-value indicator for inst_unknown_payment_rate.,No missing values after training-fitted preprocessing
+cat__NAME_EDUCATION_TYPE_Academic degree,numeric_matrix,numeric,Training-fitted one-hot level derived from NAME_EDUCATION_TYPE.,No missing values after training-fitted preprocessing
+cat__NAME_EDUCATION_TYPE_Higher education,numeric_matrix,numeric,Training-fitted one-hot level derived from NAME_EDUCATION_TYPE.,No missing values after training-fitted preprocessing
+cat__NAME_EDUCATION_TYPE_Incomplete higher,numeric_matrix,numeric,Training-fitted one-hot level derived from NAME_EDUCATION_TYPE.,No missing values after training-fitted preprocessing
+cat__NAME_EDUCATION_TYPE_Lower secondary,numeric_matrix,numeric,Training-fitted one-hot level derived from NAME_EDUCATION_TYPE.,No missing values after training-fitted preprocessing
+cat__NAME_EDUCATION_TYPE_Secondary / secondary special,numeric_matrix,numeric,Training-fitted one-hot level derived from NAME_EDUCATION_TYPE.,No missing values after training-fitted preprocessing
+cat__NAME_INCOME_TYPE_Commercial associate,numeric_matrix,numeric,Training-fitted one-hot level derived from NAME_INCOME_TYPE.,No missing values after training-fitted preprocessing
+cat__NAME_INCOME_TYPE_Pensioner,numeric_matrix,numeric,Training-fitted one-hot level derived from NAME_INCOME_TYPE.,No missing values after training-fitted preprocessing
+cat__NAME_INCOME_TYPE_State servant,numeric_matrix,numeric,Training-fitted one-hot level derived from NAME_INCOME_TYPE.,No missing values after training-fitted preprocessing
+cat__NAME_INCOME_TYPE_Unemployed,numeric_matrix,numeric,Training-fitted one-hot level derived from NAME_INCOME_TYPE.,No missing values after training-fitted preprocessing
+cat__NAME_INCOME_TYPE_Working,numeric_matrix,numeric,Training-fitted one-hot level derived from NAME_INCOME_TYPE.,No missing values after training-fitted preprocessing
+cat__NAME_HOUSING_TYPE_Co-op apartment,numeric_matrix,numeric,Training-fitted one-hot level derived from NAME_HOUSING_TYPE.,No missing values after training-fitted preprocessing
+cat__NAME_HOUSING_TYPE_House / apartment,numeric_matrix,numeric,Training-fitted one-hot level derived from NAME_HOUSING_TYPE.,No missing values after training-fitted preprocessing
+cat__NAME_HOUSING_TYPE_Municipal apartment,numeric_matrix,numeric,Training-fitted one-hot level derived from NAME_HOUSING_TYPE.,No missing values after training-fitted preprocessing
+cat__NAME_HOUSING_TYPE_Office apartment,numeric_matrix,numeric,Training-fitted one-hot level derived from NAME_HOUSING_TYPE.,No missing values after training-fitted preprocessing
+cat__NAME_HOUSING_TYPE_Rented apartment,numeric_matrix,numeric,Training-fitted one-hot level derived from NAME_HOUSING_TYPE.,No missing values after training-fitted preprocessing
+cat__NAME_HOUSING_TYPE_With parents,numeric_matrix,numeric,Training-fitted one-hot level derived from NAME_HOUSING_TYPE.,No missing values after training-fitted preprocessing
+cat__NAME_CONTRACT_TYPE_Cash loans,numeric_matrix,numeric,Training-fitted one-hot level derived from NAME_CONTRACT_TYPE.,No missing values after training-fitted preprocessing
+cat__NAME_CONTRACT_TYPE_Revolving loans,numeric_matrix,numeric,Training-fitted one-hot level derived from NAME_CONTRACT_TYPE.,No missing values after training-fitted preprocessing

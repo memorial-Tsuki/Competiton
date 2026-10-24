@@ -1,0 +1,475 @@
+{
+  "package": "赛题一_GitHub资料_20261024",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 229,
+      "sha256": "95cea911d6417f9e3f8a27846a8a4393eca0981b479dbd531716660669d66ee5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4364,
+      "sha256": "7b450afec644490d2fbc85fd080ccfe7a0f6771772dd620f9df59f6598b4bf5b"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 207,
+      "sha256": "13d56f91a39c8d6430c4d5829dc32c23e3d572c233720abffad1ca4aff137e10"
+    },
+    {
+      "path": "图片/程序输出_make_figures_图1_固定额度事件轨迹.png",
+      "bytes": 101078,
+      "sha256": "b3a79987ef20244c66de32e9cd84030fcf23331352c766f9f4372d2139f48993"
+    },
+    {
+      "path": "图片/程序输出_make_fluctuation_figures_图2_C模型纯提额响应.png",
+      "bytes": 83995,
+      "sha256": "233e7c7233329d5cedbae00a865ce0edb064cce5b4a0516a54102824d196c397"
+    },
+    {
+      "path": "图片/程序输出_make_fluctuation_figures_图3_C模型逾期边界响应.png",
+      "bytes": 104957,
+      "sha256": "efad4ce5c8908d50096d04cc9f72238ac33d6a7af4229aa9cfaf3a8d241644eb"
+    },
+    {
+      "path": "图片来源说明.md",
+      "bytes": 1458,
+      "sha256": "aa711046b4cc3899e039dfe6c85f2570524f2e8ae63a253c665e87576f0835c6"
+    },
+    {
+      "path": "数据集/cohort.csv",
+      "bytes": 12620667,
+      "sha256": "145c357c8d03bc684252acade5134c8cb99d6b612a5abfa41a666672a02f46ec"
+    },
+    {
+      "path": "数据集/feature_dictionary.csv",
+      "bytes": 19894,
+      "sha256": "282673efd38351b374fe4ecf07b9d4cda28157c857d835e6c034529f53bf46b1"
+    },
+    {
+      "path": "数据集/input_manifest.json",
+      "bytes": 3131,
+      "sha256": "58a578a6ecbc3bfc0ca9a51a50d8f61472051684f5b1ba20a815bb37a467c427"
+    },
+    {
+      "path": "数据集/observed_transitions.csv",
+      "bytes": 1003718,
+      "sha256": "e804293de6b3aa862ebad1802fe881c18d3dc2b389a7e10150dfbd4c939aae2a"
+    },
+    {
+      "path": "数据集/repeated_splits.csv",
+      "bytes": 7708797,
+      "sha256": "91d550b4a80a7c6d8f97aa48436e84e67e0b65ac4dd9a80414da17c537f8f489"
+    },
+    {
+      "path": "数据集/split_manifest.csv",
+      "bytes": 1386044,
+      "sha256": "f3899f0c965f2ac8d5ae9db990dbe8c24a3ef635f06efa8af36ad382c24f7342"
+    },
+    {
+      "path": "数据集说明.md",
+      "bytes": 1495,
+      "sha256": "9c994b5d17c9ea95d37f8179fbaedab0f44d7db1633445c751a7731becf2b593"
+    },
+    {
+      "path": "核心代码/模型实验/baseline/models/101_consistency.joblib",
+      "bytes": 12653,
+      "sha256": "c73103896d46a7ff03cf70efb485c219ae62ead6e3e345751db21864093983f4"
+    },
+    {
+      "path": "核心代码/模型实验/baseline/models/101_hgb_mono.joblib",
+      "bytes": 349509,
+      "sha256": "ad78ad278e0a810cb6f0202dfa38a32de2f7867efa01a3ecb8ec9c77834cbb81"
+    },
+    {
+      "path": "核心代码/模型实验/baseline/models/101_lr.joblib",
+      "bytes": 12645,
+      "sha256": "c8dd5104d942ec5ecffc3083144e13ad3012060b0056b43ff11d1d9dfda767e7"
+    },
+    {
+      "path": "核心代码/模型实验/baseline/models/20260923_consistency.joblib",
+      "bytes": 12656,
+      "sha256": "a51d9d66cdc9a020a566a97c6ba331f2d95fbb4f3d909b23844f0e4c7981dd80"
+    },
+    {
+      "path": "核心代码/模型实验/baseline/models/20260923_hgb_mono.joblib",
+      "bytes": 349336,
+      "sha256": "ad4ee98ba878ecf327e3cd200f36c957bdcc91577abf800f0b1015de7d89ae05"
+    },
+    {
+      "path": "核心代码/模型实验/baseline/models/20260923_lr.joblib",
+      "bytes": 12648,
+      "sha256": "28196ad9510c41145223abdc9509198bb0611e200f76414fe33aa125476de62c"
+    },
+    {
+      "path": "核心代码/模型实验/baseline/models/211_consistency.joblib",
+      "bytes": 12653,
+      "sha256": "507cdf961bf6e35b8a08bedd0af75ef3d2e1e0d8e36bd779d3d13adf10adba01"
+    },
+    {
+      "path": "核心代码/模型实验/baseline/models/211_hgb_mono.joblib",
+      "bytes": 349445,
+      "sha256": "69f0ca12a387826e79b02f4379e1d52fa8668ba95a3da272c1f147d4c60396b5"
+    },
+    {
+      "path": "核心代码/模型实验/baseline/models/211_lr.joblib",
+      "bytes": 12645,
+      "sha256": "bc1b34485632c16322a8cc40089acbe8d80c2ac415a619c020c15e900987e633"
+    },
+    {
+      "path": "核心代码/模型实验/baseline/models/307_consistency.joblib",
+      "bytes": 12654,
+      "sha256": "e715ba94eee259467d09ac589c822dc2b11c18a76fc3be515fa72f9b7458ca4b"
+    },
+    {
+      "path": "核心代码/模型实验/baseline/models/307_hgb_mono.joblib",
+      "bytes": 349542,
+      "sha256": "8a2e72a5660a081a5f52d3276cd02cadb93d1773358491000980708f2f7ba41b"
+    },
+    {
+      "path": "核心代码/模型实验/baseline/models/307_lr.joblib",
+      "bytes": 12646,
+      "sha256": "e95693047bf9e02f266d30b29e2c42042b7d5e4014ba3dc5aa73deeccc7ec9ea"
+    },
+    {
+      "path": "核心代码/模型实验/baseline/models/401_consistency.joblib",
+      "bytes": 12654,
+      "sha256": "45fdd35210c736ba73a86fc1ee947126e9fc5efb490fbad4a8f09bc3aba15d6b"
+    },
+    {
+      "path": "核心代码/模型实验/baseline/models/401_hgb_mono.joblib",
+      "bytes": 347606,
+      "sha256": "d00019aac07262918c4e6b8ac27ef394b48a87bfe7d6729b1204ac3f995098f7"
+    },
+    {
+      "path": "核心代码/模型实验/baseline/models/401_lr.joblib",
+      "bytes": 12646,
+      "sha256": "56f3b353fa0349e90579d22c1fbe27bce99f1cb0a4c60ce9dd7a9ff1e1312844"
+    },
+    {
+      "path": "核心代码/模型实验/baseline/models/503_consistency.joblib",
+      "bytes": 12654,
+      "sha256": "23dba8a79420132fd5c27b682c7449e67a6358df2885aa91e791f00fc49bea45"
+    },
+    {
+      "path": "核心代码/模型实验/baseline/models/503_hgb_mono.joblib",
+      "bytes": 347478,
+      "sha256": "f7f5582a204f7db3930137258f14fbd0030af07c6a59b130089c4f20dd5ce395"
+    },
+    {
+      "path": "核心代码/模型实验/baseline/models/503_lr.joblib",
+      "bytes": 12646,
+      "sha256": "fb389dfa4cdc28c03db297ac04cfd76ebf38468819b612102b13669551ebcbb0"
+    },
+    {
+      "path": "核心代码/模型实验/docs/协议补充_B.md",
+      "bytes": 1706,
+      "sha256": "244dbba59db69379ff6f6958ff139f58135d6b3a9ad57325cc5b490de26c5351"
+    },
+    {
+      "path": "核心代码/模型实验/docs/协议补充_C.md",
+      "bytes": 2152,
+      "sha256": "ada5ad780811cc62314745f81d58d00b63f32933630a047bf4add20eff20329a"
+    },
+    {
+      "path": "核心代码/模型实验/docs/复现说明.md",
+      "bytes": 2050,
+      "sha256": "21076ff36cf135d11171c5d0161e02a7f829a7cdb8566c64eb2690e93d26b0fb"
+    },
+    {
+      "path": "核心代码/模型实验/docs/实验协议.md",
+      "bytes": 5721,
+      "sha256": "f41689fc4386cd290e5a7790fd2a59f4defd963a6c97a48f5abae454adc919e2"
+    },
+    {
+      "path": "核心代码/模型实验/docs/逾期响应增强实验报告.md",
+      "bytes": 14432,
+      "sha256": "5a887ad043e7c379a6b64094f42d66e5dae84deabc04959bf584b26ecd1d0d32"
+    },
+    {
+      "path": "核心代码/模型实验/requirements_原训练环境.txt",
+      "bytes": 212,
+      "sha256": "48ca807957c32df2cbf2d996edc96debb0309c3cc5b16c8fc2633f3c53915d05"
+    },
+    {
+      "path": "核心代码/模型实验/src/analyze_results.py",
+      "bytes": 10344,
+      "sha256": "83fd4c6f47cd324f6e2961255d522405db01aac86ecf5b5fc5ec5a79481e4a09"
+    },
+    {
+      "path": "核心代码/模型实验/src/build_report.py",
+      "bytes": 14769,
+      "sha256": "943a94eeb0b68b58b15085c2f2380c08527927a620f81eee417d3b43cc39b2e8"
+    },
+    {
+      "path": "核心代码/模型实验/src/delinquency_model.py",
+      "bytes": 3830,
+      "sha256": "33d01d1a1839df230c73d2e3bf40db37476fa5c6bac79c1c6a07ba3accfdb7c1"
+    },
+    {
+      "path": "核心代码/模型实验/src/evaluation.py",
+      "bytes": 1184,
+      "sha256": "2171ff294063ee703ddf4288e598bf348ebfaff97d8ec3df269fc011c85d7d25"
+    },
+    {
+      "path": "核心代码/模型实验/src/make_examples.py",
+      "bytes": 2718,
+      "sha256": "721dd37fac6bd0293c0e0f3d3f3830ca1a242c69a84bc997b845a18959ff765b"
+    },
+    {
+      "path": "核心代码/模型实验/src/make_figures.py",
+      "bytes": 6041,
+      "sha256": "0323927b725bb438d3d08816e95a24058387513a8a499d22f0a325f03eca309c"
+    },
+    {
+      "path": "核心代码/模型实验/src/make_fluctuation_figures.py",
+      "bytes": 12287,
+      "sha256": "05268eb370eade15771f094183101bd50b8d3798865f7121bc6a476ce17c89c7"
+    },
+    {
+      "path": "核心代码/模型实验/src/package_delivery.py",
+      "bytes": 4363,
+      "sha256": "ab05c4466934771ff8ae0e46a3ea488ee482d791e2334e4e52c3bb66e41619e9"
+    },
+    {
+      "path": "核心代码/模型实验/src/predict.py",
+      "bytes": 5041,
+      "sha256": "8d1fd8ae6bd6436e9c467637d22f0b303152ec80a828964fbbbab9ea841cb505"
+    },
+    {
+      "path": "核心代码/模型实验/src/prepare_study.py",
+      "bytes": 3520,
+      "sha256": "b69f65ac1ddb7c3147f353a2e3f3785844dc4031d1f1f6b9caf745a004a07baf"
+    },
+    {
+      "path": "核心代码/模型实验/src/report_layout.py",
+      "bytes": 3564,
+      "sha256": "6f59446e8d49be320ef5cf297cfe39b218f7ccee05f5235b0345c0daaa758f1a"
+    },
+    {
+      "path": "核心代码/模型实验/src/reproduce.py",
+      "bytes": 3204,
+      "sha256": "f291274cf14d4677ff488df1e35d6a27b1102b4f5974dcd26bbad5bd1e5f2a13"
+    },
+    {
+      "path": "核心代码/模型实验/src/risk_model.py",
+      "bytes": 5279,
+      "sha256": "16144429a5453488548061a3b36b43b43b1e4c2a32b8bee91e05bf2ab81770b7"
+    },
+    {
+      "path": "核心代码/模型实验/src/run_experiment.py",
+      "bytes": 11094,
+      "sha256": "d54d72ee2dc79b7b568a437e8d7578f01022c96a3d9a6c0fd5081b8a0a7074ad"
+    },
+    {
+      "path": "核心代码/模型实验/src/run_shared.py",
+      "bytes": 6877,
+      "sha256": "9e5a447d68c070931cfbda13288c1449d9bbe1e17b724c7b92bb04503fd19ac0"
+    },
+    {
+      "path": "核心代码/模型实验/src/study_common.py",
+      "bytes": 725,
+      "sha256": "f0f0f354c0a9b3c3ca6fa742d9068c45387c1f19ab35cd5cba55550583934f56"
+    },
+    {
+      "path": "核心代码/模型实验/src/verify.py",
+      "bytes": 5065,
+      "sha256": "c49f4318c4488378dec4a06f264d2ffb010aeeda92b24a9c7ea37406cab7b1f9"
+    },
+    {
+      "path": "核心代码/模型实验/数据集放置说明.md",
+      "bytes": 420,
+      "sha256": "b5deb094489cf0aa2b4a3a88024ed1a282d243143f17a1775f2743f44bcc117b"
+    },
+    {
+      "path": "核心代码/模型实验/融合阶段图1源代码/common.py",
+      "bytes": 1241,
+      "sha256": "d293dab0949d158593970a6c1982cb6c5eab4a418cbc60750ab3378f5d57e72b"
+    },
+    {
+      "path": "核心代码/模型实验/融合阶段图1源代码/make_figures.py",
+      "bytes": 7904,
+      "sha256": "89b19981799341b08a5eda6502b96a29b62f6d476114a31708da98baf4780c0d"
+    },
+    {
+      "path": "核心代码/评分界面/__pycache__/schema.cpython-313.pyc",
+      "bytes": 7033,
+      "sha256": "1af8d7aa749398c28116914b156da290c5d1841811ffe709a011ed7780f3a433"
+    },
+    {
+      "path": "核心代码/评分界面/__pycache__/scoring.cpython-313.pyc",
+      "bytes": 16628,
+      "sha256": "15138d90cc3cc7eb45373eafac0d756989e843a6642fe65dd5187ff11f1c3b7d"
+    },
+    {
+      "path": "核心代码/评分界面/app.py",
+      "bytes": 7488,
+      "sha256": "375146d4287be5ec79361f015163eadd28f3abc98968fc1c58e14569f6706358"
+    },
+    {
+      "path": "核心代码/评分界面/desktop_entry.py",
+      "bytes": 1366,
+      "sha256": "ad7b7c68fcccaf23f8e6db3c4ea00006d06a55a79a4d9c85a4f8d2c1296dfc29"
+    },
+    {
+      "path": "核心代码/评分界面/model_runtime/examples/new_debt.json",
+      "bytes": 3664,
+      "sha256": "53d156bf374bb67fd0cc661102280022eef34680cb8cd2fdfab0f15cbe4ade71"
+    },
+    {
+      "path": "核心代码/评分界面/model_runtime/examples/new_debt_output.json",
+      "bytes": 884,
+      "sha256": "cb0e5995b8bcc12778982e022f6803fedb9872c1a3e44dbc9b10b530bd0a82ac"
+    },
+    {
+      "path": "核心代码/评分界面/model_runtime/examples/new_joint_dpd.json",
+      "bytes": 3655,
+      "sha256": "1df8d167071f5c6b1cae6e786b398c285b212757e58021f5ddd09aac5df83dad"
+    },
+    {
+      "path": "核心代码/评分界面/model_runtime/examples/new_joint_dpd_output.json",
+      "bytes": 1015,
+      "sha256": "2ce05451df9c15aefce78a3ea3a79272a48d6b72d72f775871dbaa77b4c96cad"
+    },
+    {
+      "path": "核心代码/评分界面/model_runtime/examples/new_ordinary_dpd.json",
+      "bytes": 3654,
+      "sha256": "8fa2c2e7a00cf31a921dcd194267b51262945e5a8d6e17d2ba7a668bac76a0dd"
+    },
+    {
+      "path": "核心代码/评分界面/model_runtime/examples/new_ordinary_dpd_output.json",
+      "bytes": 1015,
+      "sha256": "2ce05451df9c15aefce78a3ea3a79272a48d6b72d72f775871dbaa77b4c96cad"
+    },
+    {
+      "path": "核心代码/评分界面/model_runtime/examples/pure_limit.json",
+      "bytes": 3669,
+      "sha256": "de6976f3ba5a265a7d5bbd991ab0f1d39038652ea7f9d9d249470d7fe4c2c6c3"
+    },
+    {
+      "path": "核心代码/评分界面/model_runtime/examples/pure_limit_output.json",
+      "bytes": 867,
+      "sha256": "e094c12eae873d15bb40fb1b2840f0018e51e3197aa1f1c873495787d1820564"
+    },
+    {
+      "path": "核心代码/评分界面/model_runtime/examples/saturated_but_worsening.json",
+      "bytes": 3665,
+      "sha256": "f7213adacdf142439633bb691299205e6a03cd7850d5d3c14380b3be4fc132c1"
+    },
+    {
+      "path": "核心代码/评分界面/model_runtime/examples/saturated_but_worsening_output.json",
+      "bytes": 968,
+      "sha256": "3a1b12848e08a0701af856df299c2ba36626c796508c75929e08ea76e0569940"
+    },
+    {
+      "path": "核心代码/评分界面/model_runtime/models/20260923_rolling_hybrid.joblib",
+      "bytes": 163983,
+      "sha256": "70576bba02e2207188626878673a1bdd8409bc45180f8e637f258536d12694cf"
+    },
+    {
+      "path": "核心代码/评分界面/model_runtime/results/raw_training_support.json",
+      "bytes": 437,
+      "sha256": "d583e271b96ee007d8f4d6da74f3466c3a33f67554936201f8a54befd251867e"
+    },
+    {
+      "path": "核心代码/评分界面/model_runtime/src/__pycache__/delinquency_model.cpython-313.pyc",
+      "bytes": 8405,
+      "sha256": "708f901822272a66153c5f071299f721a21097795f7872baed8cc80ab451d863"
+    },
+    {
+      "path": "核心代码/评分界面/model_runtime/src/__pycache__/predict.cpython-313.pyc",
+      "bytes": 9737,
+      "sha256": "9a64da949e269803d9e9a203f6797dcc181f97615ccbfe16daea9d96ba3a2940"
+    },
+    {
+      "path": "核心代码/评分界面/model_runtime/src/__pycache__/risk_model.cpython-313.pyc",
+      "bytes": 11021,
+      "sha256": "83f3e874b9660155267ed55a350f045a9c63e00be8a0acc12d8fb8ca79619d64"
+    },
+    {
+      "path": "核心代码/评分界面/model_runtime/src/__pycache__/study_common.cpython-313.pyc",
+      "bytes": 2414,
+      "sha256": "5c23136856ddf012f8fd670d9449fe4cd71b20d0830bd3adff8c698f17cefa3c"
+    },
+    {
+      "path": "核心代码/评分界面/model_runtime/src/delinquency_model.py",
+      "bytes": 3830,
+      "sha256": "33d01d1a1839df230c73d2e3bf40db37476fa5c6bac79c1c6a07ba3accfdb7c1"
+    },
+    {
+      "path": "核心代码/评分界面/model_runtime/src/predict.py",
+      "bytes": 5041,
+      "sha256": "8d1fd8ae6bd6436e9c467637d22f0b303152ec80a828964fbbbab9ea841cb505"
+    },
+    {
+      "path": "核心代码/评分界面/model_runtime/src/risk_model.py",
+      "bytes": 5279,
+      "sha256": "16144429a5453488548061a3b36b43b43b1e4c2a32b8bee91e05bf2ab81770b7"
+    },
+    {
+      "path": "核心代码/评分界面/model_runtime/src/study_common.py",
+      "bytes": 725,
+      "sha256": "f0f0f354c0a9b3c3ca6fa742d9068c45387c1f19ab35cd5cba55550583934f56"
+    },
+    {
+      "path": "核心代码/评分界面/model_runtime/原训练环境_requirements.txt",
+      "bytes": 212,
+      "sha256": "48ca807957c32df2cbf2d996edc96debb0309c3cc5b16c8fc2633f3c53915d05"
+    },
+    {
+      "path": "核心代码/评分界面/model_runtime/本轮已核验_requirements.txt",
+      "bytes": 250,
+      "sha256": "b686b14d669a55c408ba9f265322cfe25c4c7076dca306ba8d2c6c6dbcd5a5a2"
+    },
+    {
+      "path": "核心代码/评分界面/model_runtime/演示说明.md",
+      "bytes": 2413,
+      "sha256": "98cb70ea6869b504c75159801c427c74a40cfd7a8dda64216462945478c5769c"
+    },
+    {
+      "path": "核心代码/评分界面/schema.py",
+      "bytes": 5854,
+      "sha256": "317a42898fafef9356d74062ab9b206ee674b529184277ebd25363704750e009"
+    },
+    {
+      "path": "核心代码/评分界面/scoring.py",
+      "bytes": 9413,
+      "sha256": "4098e4cdf3ba79655a46d9508e272bfc1a27228735b7d0494782705349353d98"
+    },
+    {
+      "path": "核心代码/评分界面/static/app.js",
+      "bytes": 22789,
+      "sha256": "d412b6a42af5e346e41f58a2343668ac4f8bf4b083973eb901ab233709d2d763"
+    },
+    {
+      "path": "核心代码/评分界面/static/favicon.svg",
+      "bytes": 234,
+      "sha256": "3724010a38afccd981791eabf07eb6109f3e91341c9f751e2573ba6758b921e9"
+    },
+    {
+      "path": "核心代码/评分界面/static/index.html",
+      "bytes": 20895,
+      "sha256": "a878b41e5ab6198c324fa9dce5164a3ec95dfbed4cdb223a453cf703064a87e6"
+    },
+    {
+      "path": "核心代码/评分界面/static/style.css",
+      "bytes": 51676,
+      "sha256": "cc5a69883d7ef55322ef593eb6fd47c44fa5fa6852d5d994d3ce4bd927a5d049"
+    },
+    {
+      "path": "核心代码/评分界面/tests/test_scoring.py",
+      "bytes": 3301,
+      "sha256": "a7a648886f53a3ece8ed88b291f0f779db8eaaaae677681f15b833caab3dd40d"
+    },
+    {
+      "path": "核心算法说明/核心算法说明.md",
+      "bytes": 3412,
+      "sha256": "bc3fccc7eb3469362b29cef316e05c4c44dedd7596487eb473782de51767e5dd"
+    },
+    {
+      "path": "赛题一_最终论文_参考额度锚定与窗口峰值混合模型.pdf",
+      "bytes": 584580,
+      "sha256": "684e6ff667750efc8316b7e48bd1d1e93c9d3546025c509da9f8c493143e2bf4"
+    }
+  ]
+}
