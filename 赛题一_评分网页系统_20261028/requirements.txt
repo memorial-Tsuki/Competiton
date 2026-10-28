@@ -1,0 +1,11 @@
+# 评分界面运行依赖
+# 冻结模型使用 joblib 加载，需要与训练环境一致的数值库版本
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+scikit-learn==1.9.1
+joblib==1.6.0
+threadpoolctl>=3.0
+
+# 自动化测试
+pytest>=8

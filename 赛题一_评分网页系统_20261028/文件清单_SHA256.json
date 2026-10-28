@@ -1,0 +1,180 @@
+{
+  "package": "赛题一_评分网页系统_20261028",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 293,
+      "sha256": "15e40ab7df37cd77c09a4dac3acb4a823001215a1b5cc0468ce6f894f028375c"
+    },
+    {
+      "path": "app.py",
+      "bytes": 8071,
+      "sha256": "bc9f8f3ed43acde360b1ccea9f3e25fef8404b29197c3175dc430ef38c2e5e95"
+    },
+    {
+      "path": "desktop_entry.py",
+      "bytes": 1366,
+      "sha256": "ad7b7c68fcccaf23f8e6db3c4ea00006d06a55a79a4d9c85a4f8d2c1296dfc29"
+    },
+    {
+      "path": "model_runtime/examples/new_debt.json",
+      "bytes": 3664,
+      "sha256": "53d156bf374bb67fd0cc661102280022eef34680cb8cd2fdfab0f15cbe4ade71"
+    },
+    {
+      "path": "model_runtime/examples/new_debt_output.json",
+      "bytes": 884,
+      "sha256": "cb0e5995b8bcc12778982e022f6803fedb9872c1a3e44dbc9b10b530bd0a82ac"
+    },
+    {
+      "path": "model_runtime/examples/new_joint_dpd.json",
+      "bytes": 3655,
+      "sha256": "1df8d167071f5c6b1cae6e786b398c285b212757e58021f5ddd09aac5df83dad"
+    },
+    {
+      "path": "model_runtime/examples/new_joint_dpd_output.json",
+      "bytes": 1015,
+      "sha256": "2ce05451df9c15aefce78a3ea3a79272a48d6b72d72f775871dbaa77b4c96cad"
+    },
+    {
+      "path": "model_runtime/examples/new_ordinary_dpd.json",
+      "bytes": 3654,
+      "sha256": "8fa2c2e7a00cf31a921dcd194267b51262945e5a8d6e17d2ba7a668bac76a0dd"
+    },
+    {
+      "path": "model_runtime/examples/new_ordinary_dpd_output.json",
+      "bytes": 1015,
+      "sha256": "2ce05451df9c15aefce78a3ea3a79272a48d6b72d72f775871dbaa77b4c96cad"
+    },
+    {
+      "path": "model_runtime/examples/pure_limit.json",
+      "bytes": 3669,
+      "sha256": "de6976f3ba5a265a7d5bbd991ab0f1d39038652ea7f9d9d249470d7fe4c2c6c3"
+    },
+    {
+      "path": "model_runtime/examples/pure_limit_output.json",
+      "bytes": 867,
+      "sha256": "e094c12eae873d15bb40fb1b2840f0018e51e3197aa1f1c873495787d1820564"
+    },
+    {
+      "path": "model_runtime/examples/saturated_but_worsening.json",
+      "bytes": 3665,
+      "sha256": "f7213adacdf142439633bb691299205e6a03cd7850d5d3c14380b3be4fc132c1"
+    },
+    {
+      "path": "model_runtime/examples/saturated_but_worsening_output.json",
+      "bytes": 968,
+      "sha256": "3a1b12848e08a0701af856df299c2ba36626c796508c75929e08ea76e0569940"
+    },
+    {
+      "path": "model_runtime/models/20260923_rolling_hybrid.joblib",
+      "bytes": 163983,
+      "sha256": "70576bba02e2207188626878673a1bdd8409bc45180f8e637f258536d12694cf"
+    },
+    {
+      "path": "model_runtime/results/raw_training_support.json",
+      "bytes": 437,
+      "sha256": "d583e271b96ee007d8f4d6da74f3466c3a33f67554936201f8a54befd251867e"
+    },
+    {
+      "path": "model_runtime/src/delinquency_model.py",
+      "bytes": 3830,
+      "sha256": "33d01d1a1839df230c73d2e3bf40db37476fa5c6bac79c1c6a07ba3accfdb7c1"
+    },
+    {
+      "path": "model_runtime/src/predict.py",
+      "bytes": 5041,
+      "sha256": "8d1fd8ae6bd6436e9c467637d22f0b303152ec80a828964fbbbab9ea841cb505"
+    },
+    {
+      "path": "model_runtime/src/risk_model.py",
+      "bytes": 5279,
+      "sha256": "16144429a5453488548061a3b36b43b43b1e4c2a32b8bee91e05bf2ab81770b7"
+    },
+    {
+      "path": "model_runtime/src/study_common.py",
+      "bytes": 725,
+      "sha256": "f0f0f354c0a9b3c3ca6fa742d9068c45387c1f19ab35cd5cba55550583934f56"
+    },
+    {
+      "path": "model_runtime/原训练环境_requirements.txt",
+      "bytes": 212,
+      "sha256": "48ca807957c32df2cbf2d996edc96debb0309c3cc5b16c8fc2633f3c53915d05"
+    },
+    {
+      "path": "model_runtime/本轮已核验_requirements.txt",
+      "bytes": 250,
+      "sha256": "b686b14d669a55c408ba9f265322cfe25c4c7076dca306ba8d2c6c6dbcd5a5a2"
+    },
+    {
+      "path": "model_runtime/演示说明.md",
+      "bytes": 2413,
+      "sha256": "98cb70ea6869b504c75159801c427c74a40cfd7a8dda64216462945478c5769c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6460,
+      "sha256": "3f4682e04fce41716a2d234026abc676cadcdf73ec1caf7a6718a389040858a0"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 233,
+      "sha256": "67d5751ce4b3f6b1f12bc357a436c4e550c85b6d4ead64d8101a15d35920f7fe"
+    },
+    {
+      "path": "schema.py",
+      "bytes": 5854,
+      "sha256": "317a42898fafef9356d74062ab9b206ee674b529184277ebd25363704750e009"
+    },
+    {
+      "path": "scoring.py",
+      "bytes": 11776,
+      "sha256": "3390ef716d1180ca77b5539e740d22964d633bdd491b69feda90d3aebda10349"
+    },
+    {
+      "path": "static/app.js",
+      "bytes": 29150,
+      "sha256": "d647355ddfbbdffbda1467fad88831d1c0369cfbe0a41a3800a0a18f518948b5"
+    },
+    {
+      "path": "static/favicon.svg",
+      "bytes": 234,
+      "sha256": "3724010a38afccd981791eabf07eb6109f3e91341c9f751e2573ba6758b921e9"
+    },
+    {
+      "path": "static/index.html",
+      "bytes": 22908,
+      "sha256": "82df8794d8febe2823bc00e595dd8209c18fabbdab6407d1b353e1241a01abf2"
+    },
+    {
+      "path": "static/style.css",
+      "bytes": 53898,
+      "sha256": "a87d3947fa6c478767d6add8bcabd458ea817e1fd5647d43db31fc1905cabfb2"
+    },
+    {
+      "path": "tests/test_scoring.py",
+      "bytes": 3301,
+      "sha256": "a7a648886f53a3ece8ed88b291f0f779db8eaaaae677681f15b833caab3dd40d"
+    },
+    {
+      "path": "tests/testdata/测试客户A_已有卡.json",
+      "bytes": 1336,
+      "sha256": "01a18d7a330accb1b5df9eac957d81eac0eda477db19122245d63c42a7c8eda4"
+    },
+    {
+      "path": "tests/testdata/测试客户B_新客户.json",
+      "bytes": 1325,
+      "sha256": "c304f3145c984d720c7bdb91c49d5bc3930089971fcb78875b8840e7f0a5916a"
+    },
+    {
+      "path": "tests/testdata/说明.md",
+      "bytes": 6546,
+      "sha256": "71b1ff392a3c0d6833ddfe12671dbb9778eb4fbbaee33f3635045afe9ba10010"
+    },
+    {
+      "path": "启动信用评分网页.cmd",
+      "bytes": 733,
+      "sha256": "1b8f246d89d240fdbe92c5fb2929c1ee01659ace9847a54b47d05abc527085d7"
+    }
+  ]
+}

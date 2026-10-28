@@ -1,0 +1,53 @@
+{
+  "customer_type": "cold_start",
+  "customer_label": "测试客户B 新客户·冷启动",
+  "inputs": {
+    "AMT_INCOME_TOTAL": 180000,
+    "limit": 200000,
+    "balance": 0,
+    "drawings": 0,
+    "payment": 0,
+    "dpd": 0,
+    "dpd_def": 0,
+    "DAYS_BIRTH": 28,
+    "DAYS_EMPLOYED": 3,
+    "CNT_CHILDREN": 0,
+    "active_cards": 1,
+    "AMT_CREDIT": 200000,
+    "AMT_ANNUITY": 9000,
+    "NAME_CONTRACT_TYPE": "Cash loans",
+    "NAME_INCOME_TYPE": "Working",
+    "NAME_EDUCATION_TYPE": "Higher education",
+    "NAME_HOUSING_TYPE": "Rented apartment",
+    "hist_mean_balance": null,
+    "hist_mean_drawings": null,
+    "hist_mean_payment": null,
+    "hist_max_dpd": null,
+    "hist_late_rate": null,
+    "hist_months": null,
+    "prev_count": null,
+    "prev_refused_rate": null,
+    "prev_credit_mean": null,
+    "prev_latest_day": null,
+    "inst_count": null,
+    "inst_shortfall_rate": null,
+    "inst_shortfall_sum": null,
+    "inst_not_paid_by_due_rate": null,
+    "inst_payment_ratio": null,
+    "inst_unknown_payment_rate": null,
+    "EXT_SOURCE_1": null,
+    "EXT_SOURCE_2": 0.5,
+    "EXT_SOURCE_3": null
+  },
+  "reference": {
+    "mode": "current",
+    "limit": null
+  },
+  "scenario": {
+    "kind": "pure_limit",
+    "limit_percent": 20,
+    "debt_amount": 0,
+    "dpd_days": 0,
+    "payment_amount": 0
+  }
+}

@@ -1,0 +1,11 @@
+# 最终模型训练环境（用于严格复现）
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+scikit-learn==1.9.1
+joblib==1.6.0
+matplotlib==3.11.2
+threadpoolctl>=3.0
+
+# 评分界面测试
+pytest>=8

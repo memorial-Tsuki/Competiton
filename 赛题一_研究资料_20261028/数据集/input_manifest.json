@@ -1,0 +1,38 @@
+{
+  "source": "Frozen 2026-09-24 fusion deliverable; third-stage exploratory development.",
+  "frozen_inputs": {
+    "data/cohort.csv": "145c357c8d03bc684252acade5134c8cb99d6b612a5abfa41a666672a02f46ec",
+    "data/split_manifest.csv": "f3899f0c965f2ac8d5ae9db990dbe8c24a3ef635f06efa8af36ad382c24f7342",
+    "data/repeated_splits.csv": "91d550b4a80a7c6d8f97aa48436e84e67e0b65ac4dd9a80414da17c537f8f489",
+    "src/risk_model.py": "16144429a5453488548061a3b36b43b43b1e4c2a32b8bee91e05bf2ab81770b7",
+    "src/evaluation.py": "2171ff294063ee703ddf4288e598bf348ebfaff97d8ec3df269fc011c85d7d25",
+    "baseline/models/20260923_lr.joblib": "28196ad9510c41145223abdc9509198bb0611e200f76414fe33aa125476de62c",
+    "baseline/models/20260923_consistency.joblib": "a51d9d66cdc9a020a566a97c6ba331f2d95fbb4f3d909b23844f0e4c7981dd80",
+    "baseline/models/20260923_hgb_mono.joblib": "ad4ee98ba878ecf327e3cd200f36c957bdcc91577abf800f0b1015de7d89ae05",
+    "baseline/models/101_lr.joblib": "c8dd5104d942ec5ecffc3083144e13ad3012060b0056b43ff11d1d9dfda767e7",
+    "baseline/models/101_consistency.joblib": "c73103896d46a7ff03cf70efb485c219ae62ead6e3e345751db21864093983f4",
+    "baseline/models/101_hgb_mono.joblib": "ad78ad278e0a810cb6f0202dfa38a32de2f7867efa01a3ecb8ec9c77834cbb81",
+    "baseline/models/211_lr.joblib": "bc1b34485632c16322a8cc40089acbe8d80c2ac415a619c020c15e900987e633",
+    "baseline/models/211_consistency.joblib": "507cdf961bf6e35b8a08bedd0af75ef3d2e1e0d8e36bd779d3d13adf10adba01",
+    "baseline/models/211_hgb_mono.joblib": "69f0ca12a387826e79b02f4379e1d52fa8668ba95a3da272c1f147d4c60396b5",
+    "baseline/models/307_lr.joblib": "e95693047bf9e02f266d30b29e2c42042b7d5e4014ba3dc5aa73deeccc7ec9ea",
+    "baseline/models/307_consistency.joblib": "e715ba94eee259467d09ac589c822dc2b11c18a76fc3be515fa72f9b7458ca4b",
+    "baseline/models/307_hgb_mono.joblib": "8a2e72a5660a081a5f52d3276cd02cadb93d1773358491000980708f2f7ba41b",
+    "baseline/models/401_lr.joblib": "56f3b353fa0349e90579d22c1fbe27bce99f1cb0a4c60ce9dd7a9ff1e1312844",
+    "baseline/models/401_consistency.joblib": "45fdd35210c736ba73a86fc1ee947126e9fc5efb490fbad4a8f09bc3aba15d6b",
+    "baseline/models/401_hgb_mono.joblib": "d00019aac07262918c4e6b8ac27ef394b48a87bfe7d6729b1204ac3f995098f7",
+    "baseline/models/503_lr.joblib": "fb389dfa4cdc28c03db297ac04cfd76ebf38468819b612102b13669551ebcbb0",
+    "baseline/models/503_consistency.joblib": "23dba8a79420132fd5c27b682c7449e67a6358df2885aa91e791f00fc49bea45",
+    "baseline/models/503_hgb_mono.joblib": "f7f5582a204f7db3930137258f14fbd0030af07c6a59b130089c4f20dd5ce395",
+    "data/observed_transitions.csv": "e804293de6b3aa862ebad1802fe881c18d3dc2b389a7e10150dfbd4c939aae2a"
+  },
+  "source_raw_csv_sha256": "a9cdc48900d55131c90f3128b991859aeb94ca1326fb5f4d1624b9fd03782247",
+  "source_archive_sha256": "2bdb58bb252ff68981cbb4788bff2a73226c87bf3e0f95bc26095a76026fb3ea",
+  "observed_transition_counts": {
+    "unchanged": 37843,
+    "worsening": 452,
+    "improving": 275,
+    "mixed": 1
+  },
+  "protocol_sha256": "f41689fc4386cd290e5a7790fd2a59f4defd963a6c97a48f5abae454adc919e2"
+}

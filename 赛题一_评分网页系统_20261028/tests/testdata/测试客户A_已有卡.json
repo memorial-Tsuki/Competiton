@@ -1,0 +1,53 @@
+{
+  "customer_type": "existing",
+  "customer_label": "测试客户A 已有卡·履约正常",
+  "inputs": {
+    "AMT_INCOME_TOTAL": 240000,
+    "limit": 500000,
+    "balance": 320000,
+    "drawings": 60000,
+    "payment": 25000,
+    "dpd": 0,
+    "dpd_def": 0,
+    "DAYS_BIRTH": 35,
+    "DAYS_EMPLOYED": 6,
+    "CNT_CHILDREN": 1,
+    "active_cards": 2,
+    "AMT_CREDIT": 450000,
+    "AMT_ANNUITY": 25000,
+    "NAME_CONTRACT_TYPE": "Cash loans",
+    "NAME_INCOME_TYPE": "Working",
+    "NAME_EDUCATION_TYPE": "Higher education",
+    "NAME_HOUSING_TYPE": "House / apartment",
+    "hist_mean_balance": 280000,
+    "hist_mean_drawings": 55000,
+    "hist_mean_payment": 24000,
+    "hist_max_dpd": 0,
+    "hist_late_rate": 0.1,
+    "hist_months": 5,
+    "prev_count": 4,
+    "prev_refused_rate": 0.25,
+    "prev_credit_mean": 200000,
+    "prev_latest_day": 180,
+    "inst_count": 24,
+    "inst_shortfall_rate": 0.05,
+    "inst_shortfall_sum": 1200,
+    "inst_not_paid_by_due_rate": 0.05,
+    "inst_payment_ratio": 0.98,
+    "inst_unknown_payment_rate": 0.1,
+    "EXT_SOURCE_1": 0.45,
+    "EXT_SOURCE_2": 0.62,
+    "EXT_SOURCE_3": 0.38
+  },
+  "reference": {
+    "mode": "current",
+    "limit": null
+  },
+  "scenario": {
+    "kind": "new_debt",
+    "limit_percent": 0,
+    "debt_amount": 150000,
+    "dpd_days": 0,
+    "payment_amount": 0
+  }
+}

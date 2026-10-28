@@ -1,0 +1,23 @@
+{
+  "model_version": "delinquency-development-20260928",
+  "method": "rolling_hybrid",
+  "development_gate_passed": true,
+  "pd": 0.131965957688055,
+  "score": 538.7863317463035,
+  "grade": "D",
+  "live_pd": 0.131965957688055,
+  "reference_limit": 630000.0,
+  "rolling_peak_observed_days": 0.0,
+  "capped_peak_days": 0.0,
+  "mechanical_limit_component_points": 0.0,
+  "provenance": "declared_consistent_external_authenticity_not_verified",
+  "status": "research_candidate_not_credit_approval",
+  "outside_training_range": [],
+  "previous_recomputed_pd": 0.07461523258577128,
+  "pd_change": 0.057350725102283714,
+  "risk_component_points": -36.597018176570145,
+  "total_change_points": -36.597018176570145,
+  "change_basis": "same model/reference; current live score minus recomputed previous reference score",
+  "review_reasons": [],
+  "requires_review": false
+}
